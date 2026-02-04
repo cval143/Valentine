@@ -52,10 +52,11 @@ elif st.session_state.stage == 'gift':
              st.session_state.opened = True
              st.rerun()
         
-        st.image("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWhtZWVueTJ3bm90NmoyaW9zN3hnNTVuNnJybGNyMGxvcTJrNjM1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oz8xLdUxP6SpHwfzW/giphy.gif", use_container_width=True)
+        # Updated Gift GIF
+        st.image("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2JubWVueGRwMmp3N3U4bWk3eHY0d2x1NHc5ZHdzYW1nMHFsajY5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j3c8gzkQCZuHxfzacL/giphy.gif", use_container_width=True)
 
     else:
-        st.balloons() # Confetti effect!
+        st.balloons() 
         st.markdown("<h1 style='text-align: center; color: #ff4b6b;'>🎉 CONGRATULATIONS! 🎉</h1>", unsafe_allow_html=True)
         st.markdown("<h2 style='text-align: center;'>You have won a Million Kisses! 💋😘</h2>", unsafe_allow_html=True)
         
